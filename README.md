@@ -1,4 +1,24 @@
 # coverage-gutters
+
+## Updated by Tom Grushka to work with rspec-rails:
+
+### Prepare:
+
+```
+git clone https://github.com/tgrushkasm/vscode-coverage-gutters.git
+cd vscode-coverage-gutters
+npm ci
+npm run-script build
+```
+
+### Install into VS Code:
+
+```
+ln -s ~/vscode-coverage-gutters ~/.vscode/extensions/
+```
+
+---
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/ryanluker.vscode-coverage-gutters.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/ryanluker.vscode-coverage-gutters.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/ryanluker.vscode-coverage-gutters.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
